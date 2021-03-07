@@ -110,3 +110,6 @@ venv.bak/
 
 # experiment files
 conf*~
+
+# Intellij PyCharm
+.idea/
