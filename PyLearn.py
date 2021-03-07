@@ -69,9 +69,8 @@ trainer = HMNetTrainer(opt)
 print('Select command: ' + command)
 if command == "train":
     trainer.train()
-
 elif command == "evaluate":
     trainer.eval()
-
 else:
     assert False, f"Unknown command: {command}"
+
